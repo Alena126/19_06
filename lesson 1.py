@@ -1,5 +1,5 @@
 #O(N ** 2)
-'''def strcounter(s):
+def strcounter(s):
     for sym in set(s):
         count = 0
         for sub_sym in s:
@@ -7,7 +7,7 @@
                 count += 1
         print(f'{sym} - {count}')
 
-strcounter('zzzzzzzzzzzz')'''
+strcounter('zzzzzzzzzzzz')
 
 # O (N)
 def strcounter(s):
